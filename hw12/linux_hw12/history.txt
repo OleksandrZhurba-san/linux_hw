@@ -1,0 +1,20 @@
+ 7224  mkdir hw12
+ 7225  cd hw12
+ 7226  clear
+ 7227  git clone git@github.com:OleksandrZhurba-san/linux_hw12.git
+ 7228  ll
+ 7229  cd linux_hw12
+ 7230  git checkout -b feature
+ 7231  vim .
+ 7232  vim .gitignore
+ 7233  git add .
+ 7234  git commit -m "chore: adding changes to README and gitignore"
+ 7235  git push -u origin main
+ 7236  git push
+ 7237  git push -u origin main
+ 7238  git push -u origin feature
+ 7239  git commit --amend -m "chore: amend"
+ 7240  git status
+ 7241  git branch
+ 7242  git checkout main
+ 7243  git merge feature

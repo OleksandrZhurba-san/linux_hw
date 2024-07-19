@@ -1,0 +1,20 @@
+ 6077  cd hw
+ 6078  ll
+ 6079  mkdir -p home/user/start
+ 6080  cd home/user/start
+ 6081  touch 1.txt
+ 6082  echo "Start" > 1.txt
+ 6083  date >> 1.txt
+ 6084  ls ../../../opt
+ 6085  ..
+ 6086  cd opt
+ 6087  ll
+ 6088  mkdir task
+ 6089  cd -
+ 6090  cd --
+ 6091  cd -
+ 6092  ll
+ 6093  cp home/user/start/1.txt opt/task/start.txt
+ 6094  cd opt/task/
+ 6095  ls -lah / | tail -4 >> start.txt
+ 6096  vim start.txt

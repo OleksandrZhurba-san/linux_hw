@@ -1,0 +1,6 @@
+Start
+Thu May  9 14:37:24 CEST 2024
+drwxr-xr-x@ 64 root  wheel   2.0K Mar 21 07:13 sbin
+lrwxr-xr-x@  1 root  wheel    11B Mar 21 07:13 tmp -> private/tmp
+drwxr-xr-x@ 11 root  wheel   352B Mar 21 07:13 usr
+lrwxr-xr-x@  1 root  wheel    11B Mar 21 07:13 var -> private/var

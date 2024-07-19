@@ -1,0 +1,19 @@
+Wed May 15 15:40:08 UTC 2024
+modified via text editor
+/dev/root                 4.9G      2.3G      2.6G  47% /
+   1 date > hw4.txt
+   2 df -h / | grep -w / >> hw4.txt
+   3 history | tail -3 >> hw4.txt
+cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+root:x:0:root
+bin:x:1:root,bin,daemon
+daemon:x:2:root,bin,daemon
+sys:x:3:root,bin,adm
+adm:x:4:root,adm,daemon
+disk:x:6:root,adm
+wheel:x:10:root
+floppy:x:11:root
+dialout:x:20:root
+tape:x:26:root
+video:x:27:root

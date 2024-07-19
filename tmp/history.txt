@@ -1,0 +1,22 @@
+ 5923  cd Linux
+ 5924  ll
+ 5925  mkdir hw
+ 5926  cd hw
+ 5927  ll
+ 5928  clear
+ 5929  mkdir animals
+ 5930  mkdir -p animals/dogs animals/cats animals/fish
+ 5931  cd animals
+ 5932  cd ..
+ 5933  ll
+ 5934  ll animals
+ 5935  touch animals/dogs/pluto animals/fish/nemo animals/cats/garfield
+ 5936  mkdir tmp
+ 5937  touch tmp/adam
+ 5938  mkdir humans
+ 5939  cp tmp/adam humans
+ 5940  touch tmp/evA
+ 5941  mkdir opt
+ 5942  mv tmp/evA opt/eve
+ 5943  mv opt/eve humans
+ 5944  ls humans

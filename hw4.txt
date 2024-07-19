@@ -1,0 +1,5 @@
+date > hw4.txt
+df -h / | grep -w / >> hw4.txt
+history | tail -3 >> hw4.txt
+grep "cron" /etc/passwd >> hw4.txt
+grep "root" /etc/group | wc -l >> hw4.txt
